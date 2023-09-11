@@ -5,6 +5,9 @@
   "repository": "https://github.com/raihan-778/introduction-to-prisma.git",
   "author": "Raihan Uddin <raihanarif778@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/index.ts"
+  },
   "dependencies": {
     "@prisma/client": "^5.2.0",
     "@types/cors": "^2.8.14",
