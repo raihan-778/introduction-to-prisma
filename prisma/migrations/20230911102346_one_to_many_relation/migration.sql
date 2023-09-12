@@ -5,7 +5,6 @@
 
 */
 -- CreateIndex
-CREATE UNIQUE INDEX "profiles_userId_key" ON "profiles"("userId");
 
 -- AddForeignKey
 ALTER TABLE "profiles" ADD CONSTRAINT "profiles_userId_fkey" FOREIGN KEY ("userId") REFERENCES "users"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
