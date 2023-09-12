@@ -23,7 +23,8 @@ const getAllPosts = async (req: Request, res: Response) => {
       status: 200,
       success: true,
       message: "Post fatched successfully",
-      data: result,
+      total: result.total,
+      data: result.data,
     });
   } catch (err) {
     res.send(err);
@@ -42,9 +43,56 @@ const getSinglePost = async (req: Request, res: Response) => {
     res.send(err);
   }
 };
+const updatePost = async (req: Request, res: Response) => {
+  const id = parseInt(req.params.id);
+  const data = req.body;
+
+  try {
+    const result = await postService.updatePost(id, data);
+    res.send({
+      status: 200,
+      success: true,
+      message: " Post updated successfully",
+      data: result,
+    });
+  } catch (err) {
+    res.send(err);
+  }
+};
+const deletePost = async (req: Request, res: Response) => {
+  const id = parseInt(req.params.id);
+  try {
+    const result = await postService.deletePost(id);
+    res.send({
+      status: 200,
+      success: true,
+      message: " Post Deleted successfully",
+      data: result,
+    });
+  } catch (err) {
+    res.send(err);
+  }
+};
+
+const learnAggrigateAndGrouping = async (req: Request, res: Response) => {
+  try {
+    const result = await postService.learnAggrigateAndGrouping();
+    res.send({
+      status: 200,
+      success: true,
+      message: " authorId average",
+      data: result,
+    });
+  } catch (err) {
+    res.send(err);
+  }
+};
 
 export const postController = {
   insertIntoDB,
   getAllPosts,
   getSinglePost,
+  updatePost,
+  deletePost,
+  learnAggrigateAndGrouping,
 };

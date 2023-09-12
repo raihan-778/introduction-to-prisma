@@ -1,0 +1,124 @@
+('Responsive Web Design with HTML and CSS', 3, 1),
+('JavaScript for Web Development', 4, 1),
+('Advanced CSS Techniques', 5, 2),
+('Front-End Development Tools', 6, 2),
+('Digital Marketing Fundamentals', 7, 3),
+('Search Engine Optimization Strategies', 8, 3),
+('Web Application Security', 9, 1),
+('User Interface Design Principles', 10, 2),
+('Content Marketing Strategies', 11, 3),
+('Web Development Best Practices', 12, 1),
+('Graphic Design for the Web', 13, 2),
+('Social Media Advertising', 14, 3),
+('Responsive Web Design Patterns', 15, 1),
+('Web Typography and Layout', 16, 2),
+('Email Marketing Strategies', 17, 3),
+('Back-End Development with Node.js', 18, 1),
+('UI/UX Design Principles', 19, 2),
+('Digital Advertising Campaigns', 20, 3),
+('Web Security and Privacy', 21, 1),
+('Responsive Web Design Frameworks', 22, 1);
+
+
+[
+    {
+        "title": "Responsive Web Design with HTML and CSS",
+        "authorId": 3,
+        "categoryId": 1
+    },
+    {
+        "title": "JavaScript for Web Development",
+        "authorId": 4,
+        "categoryId": 1
+    },
+    {
+        "title": "Advanced CSS Techniques",
+        "authorId": 5,
+        "categoryId": 2
+    },
+    {
+        "title": "Front-End Development Tools",
+        "authorId": 6,
+        "categoryId": 2
+    },
+    {
+        "title": "Digital Marketing Fundamentals",
+        "authorId": 7,
+        "categoryId": 3
+    },
+    {
+        "title": "Search Engine Optimization Strategies",
+        "authorId": 8,
+        "categoryId": 3
+    },
+    {
+        "title": "Web Application Security",
+        "authorId": 9,
+        "categoryId": 1
+    },
+    {
+        "title": "User Interface Design Principles",
+        "authorId": 10,
+        "categoryId": 2
+    },
+    {
+        "title": "Content Marketing Strategies",
+        "authorId": 11,
+        "categoryId": 3
+    },
+    {
+        "title": "Web Development Best Practices",
+        "authorId": 12,
+        "categoryId": 1
+    },
+    {
+        "title": "Graphic Design for the Web",
+        "authorId": 13,
+        "categoryId": 2
+    },
+    {
+        "title": "Social Media Advertising",
+        "authorId": 14,
+        "categoryId": 3
+    },
+    {
+        "title": "Responsive Web Design Patterns",
+        "authorId": 15,
+        "categoryId": 1
+    },
+    {
+        "title": "Web Typography and Layout",
+        "authorId": 16,
+        "categoryId": 2
+    },
+    {
+        "title": "Email Marketing Strategies",
+        "authorId": 17,
+        "categoryId": 3
+    },
+    {
+        "title": "Back-End Development with Node.js",
+        "authorId": 18,
+        "categoryId": 1
+    },
+    {
+        "title": "UI/UX Design Principles",
+        "authorId": 19,
+        "categoryId": 2
+    },
+    {
+        "title": "Digital Advertising Campaigns",
+        "authorId": 20,
+        "categoryId": 3
+    },
+    {
+        "title": "Web Security and Privacy",
+        "authorId": 21,
+        "categoryId": 1
+    },
+    {
+        "title": "Responsive Web Design Frameworks",
+        "authorId": 22,
+        "categoryId": 1
+    }
+]
